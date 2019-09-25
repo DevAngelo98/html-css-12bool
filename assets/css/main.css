@@ -1,0 +1,49 @@
+
+.pink {
+ background-color: pink;
+}
+
+.first > .col-1 {
+ height: 120px;
+ text-align: center;
+}
+
+.border-right-twopx {
+  border-right: 2px solid black;
+}
+
+.border-left-onepx {
+ border-left: 1px solid black
+}
+
+.border-right-onepx {
+ border-right: 1px solid black
+}
+
+.border-top {
+ border-top: 2px solid black;
+}
+
+
+.height > div {
+ height: 240px;
+ text-align: center;
+ line-height: 240px;
+}
+
+.fifth {
+ height: 240px;
+ text-align: center;
+ line-height: 230px;
+}
+
+.fifth .container [class*="col-"] {
+ background-color: #FF787C;
+ border: 1px solid white;
+
+}
+
+.fifth .container {
+ margin: 5px;
+ height: calc(100%-5px);
+}
