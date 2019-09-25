@@ -2,7 +2,6 @@
  background-color: #0753A2;
  width: 100%;
  height: 100vh;
- padding: 100px;
 }
 
 .center {
@@ -17,6 +16,7 @@
 .first, .second {
  /*background-color: #A5BE22;*/
  height: 100%;
+ position: relative;
 }
 
 .row {
@@ -27,4 +27,37 @@
 .color {
  background-color:  #A5BE22;
  height: 100%;
+ border: 1px solid black;
+}
+
+.first{
+ animation-name: first;
+ animation-duration: 14s;
+}
+
+.second {
+ animation-name: second;
+ animation-duration: 14s;
+}
+
+@media screen and (max-width:600px){
+ .center{
+  height: 20%;
+ }
+}
+
+@keyframes first {
+ 0% {top:0; left:50%;}
+ 25% {top:100%; left:50%;}
+ 50% {top:100%; left:50%;}
+ 75% {top:100%; left:0%;}
+ 100% {top:0; left:0;}
+}
+
+@keyframes second {
+ 0% {top:100%; right:50%;}
+ 25% {top:100%; right:50%;}
+ 50% {top:0; right:50%;}
+ 75% {top:0; right:50%;}
+ 100% {top:0; right:0;}
 }
