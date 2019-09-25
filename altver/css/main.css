@@ -1,0 +1,30 @@
+.content {
+ background-color: #0753A2;
+ width: 100%;
+ height: 100vh;
+ padding: 100px;
+}
+
+.center {
+ height: 30%;
+ width: 90%;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+}
+
+.first, .second {
+ /*background-color: #A5BE22;*/
+ height: 100%;
+}
+
+.row {
+ height: calc((1/5)*100%);
+ /*background-color: red;*/
+}
+
+.color {
+ background-color:  #A5BE22;
+ height: 100%;
+}
