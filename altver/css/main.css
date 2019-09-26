@@ -2,6 +2,8 @@
  background-color: #0753A2;
  width: 100%;
  height: 100vh;
+ animation-name: color-background;
+ animation-duration: 14s;
 }
 
 .center {
@@ -28,6 +30,8 @@
  background-color:  #A5BE22;
  height: 100%;
  border: 1px solid black;
+ animation-name: color-div;
+ animation-duration: 14s;
 }
 
 .first{
@@ -60,4 +64,20 @@
  50% {top:0; right:50%;}
  75% {top:0; right:50%;}
  100% {top:0; right:0;}
+}
+
+@keyframes color-background {
+ 0% {background-color: #EBA96C}
+ 25% {background-color:#BD6615}
+ 50% {background-color:#690970}
+ 75% {background-color:#C83852}
+ 100% {background-color:#F04813}
+}
+
+@keyframes color-div {
+ 0% {background-color: #81018F}
+ 25% {background-color:#230770}
+ 50% {background-color:#C8A538}
+ 75% {background-color:#706C24}
+ 100% {background-color:#2290BD}
 }
